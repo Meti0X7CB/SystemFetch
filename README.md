@@ -1,5 +1,5 @@
 # SystemFetch
-A Win 11 style Rainmeter skin suit for date, time and system monitoring
+A Win 11 style Rainmeter skin suit for date, time and system monitoring.
 ## Functionality
 You can pick and choose different styles included in the skin suit. More styles will be added in future updates.
 
