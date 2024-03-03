@@ -13,6 +13,9 @@ Note: You can always change the scaling, color and graph color as you desire.
 
 ## Features
 - Fully scalable UI with customizable colors
+- CPU/GPU/RAM usage monitor (%)
+- Download/Upload monitor (MB/s)
+- Disk read/write monitor (MB/s)
 - Built with the new UsageMonitor plugin for better resourse optimization and hardware detection
 ## Installation
 Download the latest version from [Releases](https://github.com/Meti0X7CB/SystemFetch/releases) tab.
