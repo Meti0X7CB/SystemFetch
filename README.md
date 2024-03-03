@@ -8,10 +8,9 @@ You can pick and choose different styles included in the skin suit. More styles 
 
 Note: You can always change the scaling, color and graph color as you desire.
 ## Minimum Requirements:
-- Windows 10 or higher
-- Rainmeter 4.5.17.3700 or higher
+- Windows 11
+- Rainmeter 4.5.18
 
-Note: You will need Windows 11 for the rounded corner style to work!
 ## Features
 - Fully scalable UI with customizable colors
 - Built with the new UsageMonitor plugin for better resourse optimization and hardware detection
