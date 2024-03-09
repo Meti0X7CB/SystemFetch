@@ -2,10 +2,11 @@
 Measure = Plugin
 Plugin = AudioLevel
 Port = Output
-FFTSize = 1024
+FFTSize = 2048
 FFTAttack = 75
 FFTDecay = 150
-Bands = 30
+Sensitivity = 40
+Bands = 50
 
 [MeasureBand0]
 Measure = Plugin
@@ -216,3 +217,143 @@ Plugin = AudioLevel
 Parent = MeasureAudio
 Type = Band
 BandIdx = 29
+
+[MeasureBand30]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 30
+
+[MeasureBand31]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 31
+
+[MeasureBand32]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 32
+
+[MeasureBand33]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 33
+
+[MeasureBand34]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 34
+
+[MeasureBand35]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 35
+
+[MeasureBand36]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 36
+
+[MeasureBand37]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 37
+
+[MeasureBand38]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 38
+
+[MeasureBand39]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 39
+
+[MeasureBand40]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 40
+
+[MeasureBand41]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 41
+
+[MeasureBand42]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 42
+
+[MeasureBand43]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 43
+
+[MeasureBand44]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 44
+
+[MeasureBand45]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 45
+
+[MeasureBand46]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 46
+
+[MeasureBand47]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 47
+
+[MeasureBand48]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 48
+
+[MeasureBand49]
+Measure = Plugin
+Plugin = AudioLevel
+Parent = MeasureAudio
+Type = Band
+BandIdx = 49
