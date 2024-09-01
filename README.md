@@ -8,7 +8,7 @@ A Win 11 style Rainmeter skin suit for date, time and system monitoring.
 Note: You can always change the scaling, color and graph color as you desire.
 ## Minimum Requirements:
 - Windows 11
-- Rainmeter 4.5.18
+- Rainmeter 4.5.20
 
 ## Features
 - Fully scalable UI with customizable colors
