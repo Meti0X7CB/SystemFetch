@@ -10,9 +10,10 @@ function GenerateDays(startDay, totalDays)
     local daysTable = {}
     local currentDay = tonumber(os.date("%d"))
 
+    local scale = tonumber(SKIN:GetVariable("Scale", 1))
     -- Dimensions of a single day cell
-    local cellWidth = 53
-    local cellHeight = 55
+    local cellWidth = (35.3 * scale)
+    local cellHeight = (36.6 * scale)
     
     -- Initialize the daysTable with empty spaces
     for i = 1, 42 do
@@ -37,15 +38,15 @@ function GenerateDays(startDay, totalDays)
             -- Calculate x and y positions
             local x
             if column >= 2 and column <= 5 then
-                x = (column * cellWidth) - 0.1
+                x = (column * cellWidth) - (0.06 * scale)
             elseif column == 6 then
-                x = (column * cellWidth) - 1
+                x = (column * cellWidth) - (0.6 * scale)
             else
                 x = column * cellWidth
             end
 
             local y
-            local yOffsets = { [2] = -4.4, [3] = -12.4, [4] = -20.4, [5] = -28.4 }
+            local yOffsets = { [2] = (-2.9 * scale), [3] = (-8.2 * scale), [4] = (-13.6 * scale), [5] = (-18.9 * scale) }
             y = (row * cellHeight) + (yOffsets[row] or 0)
             
             -- Set the variables for the current day position
