@@ -3,7 +3,7 @@ A Win 11 style Rainmeter skin suit for date, time and system monitoring.
 
 ## Preview
 
-![Screenshot 2025-01-02 204818](https://github.com/user-attachments/assets/32997e53-00d1-4b37-97aa-de51839caedb)
+![Screenshot 2025-04-28 231607](https://github.com/user-attachments/assets/17336342-bbf1-4f69-aca3-3a994830ad7d)
 
 Note: You can always change the scaling, color and graph color as you desire.
 ## Minimum Requirements:
